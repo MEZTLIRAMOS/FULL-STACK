@@ -1,0 +1,29 @@
+h1 { /* Estilo para el elemento h1 */
+    text-align: center; /* Centra el texto horizontalmente */
+    color: rgb(243, 17, 55); /* Establece el color del texto a un tono rojo */
+}
+body, html { /* Estilos globales para los elementos body y html */
+    margin: 0; /* Elimina el margen predeterminado del navegador */
+    padding: 0; /* Elimina el relleno predeterminado del navegador */
+    height: 100%; /* Establece la altura del documento al 100% del viewport */  
+    overflow: hidden; /* Oculta las barras de desplazamiento */
+    /* background-image: url('../img/error.webp'); */
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que el video cubra toda la pantalla */
+    z-index: -1; /* Coloca el video detrás del contenido */
+}
+
+.contenido {/* Estilo para los elementos con clase "contenido" */
+    position: relative; /* Posiciona el elemento relativo a su posición normal */
+    z-index: 1; /* Asegura que este contenido se muestre por encima del fondo del video */
+    color: white; /* Establece el color del texto a blanco */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding-top: 20%; /* Añade un relleno superior del 20% del contenedor */
+}

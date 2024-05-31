@@ -1,0 +1,26 @@
+body {
+    background-image: url('../img/luna.jpeg'); /* Ajusta la ruta según la ubicación de la imagen o video */
+    background-size: cover; /* Ajusta la imagen para que cubra la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+    height: 100vh; /* Asegura que el fondo cubra la ventana del navegador */
+    margin: 0; /* Elimina el margen por defecto*/
+}
+.row {
+    max-width: 200%; /* Cambiado a máximo ancho para hacerlo responsive */
+    max-height: 600%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 0px 20px; /* Ajustado el padding para hacerlo responsive */
+    margin: 0 auto; /* Centrado horizontalmente */
+    box-shadow: 1px 1px 2px white,0 0 1em  rgb(34, 194, 247),0 0 0.2em rgba(12, 219, 255, 0.952);
+    /* Esta línea aplica una sombra al elemento*/
+}
+.ColorTransparente {
+    background: transparent;
+    background: rgba(138, 221, 45, 0);
+}
